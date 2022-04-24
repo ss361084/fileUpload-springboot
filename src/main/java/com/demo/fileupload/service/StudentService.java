@@ -1,6 +1,6 @@
 package com.demo.fileupload.service;
 
-import com.demo.fileupload.service.dto.StudentDTO;
+import com.demo.fileupload.service.dto.request.StudentDTO;
 
 import java.util.List;
 import java.util.Optional;

@@ -3,12 +3,11 @@ package com.demo.fileupload.service.impl;
 import com.demo.fileupload.domain.Student;
 import com.demo.fileupload.repository.StudentRepository;
 import com.demo.fileupload.service.StudentService;
-import com.demo.fileupload.service.dto.StudentDTO;
+import com.demo.fileupload.service.dto.request.StudentDTO;
 import com.demo.fileupload.service.error.BadRequestException;
 import com.demo.fileupload.service.mapper.StudentMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
